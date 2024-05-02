@@ -19,7 +19,8 @@ jobs: #định nghĩa các công việc mà nó sẽ tự động thực hiện
     # ứng dụng sẽ chạy trên các môi trường theo version được khai báo 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        #node-version: [16.x, 18.x]
+        node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     #các bước mà github actions nó sẽ tự động thực hiện
     steps:
